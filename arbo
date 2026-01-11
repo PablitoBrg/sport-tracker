@@ -1,0 +1,10 @@
+sport-tracker/
+│
+├── app.py                # App Streamlit principale
+├── data/
+│   ├── current_week.json # Données semaine en cours
+│   └── history.json      # Historique des semaines
+│
+├── config.py             # Objectifs + mapping mouvements → muscles
+├── utils.py              # Fonctions logiques (increment, reset, stats)
+└── requirements.txt
