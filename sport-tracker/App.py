@@ -57,7 +57,6 @@ for muscle in st.session_state.muscle_targets:  # <- muscle défini ici
             increment_muscle(muscle)
             st.rerun()
 
-st.subheader("Mouvements")
 
 st.divider()
 
