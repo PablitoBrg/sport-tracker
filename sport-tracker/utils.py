@@ -84,3 +84,18 @@ def load_targets():
 def save_targets(targets):
     with open(TARGETS_PATH, "w") as f:
         json.dump(targets, f, indent=2)
+
+
+def decrement_movement(movement):
+    # Charger la semaine en cours
+    data = load_current_week()
+    if movement in data["movements"]:
+        # On ne descend pas en dessous de 0
+        data["movements"][movement] = max(0, data["movements"][movement] - 1)
+    save_current_week(data)
+
+def decrement_muscle(muscle):
+        data = load_current_week()
+        if muscle in data["muscles"]:
+            data["muscles"][muscle] = max(0, data["muscles"][muscle] - 1)
+        save_current_week(data)

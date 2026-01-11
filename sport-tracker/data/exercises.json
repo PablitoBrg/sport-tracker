@@ -1,0 +1,34 @@
+{
+  "Biceps": {
+    "Curl barre": 50,
+    "Curl halt\u00e8re": 20,
+    "Curl marteau": 26,
+    "Curl marteau poulie": 35,
+    "Curl poulie": 30,
+    "Curl inclin\u00e9": 20
+  },
+  "Triceps": {
+    "Extension barre": 0,
+    "Extension halt\u00e8re": 0,
+    "Dips triceps": 0,
+    "Poulie corde": 0,
+    "Kickback": 0
+  },
+  "Dos": {
+    "Tractions": 0,
+    "Rowing barre": 0,
+    "Rowing halt\u00e8re": 0,
+    "Tirage poulie": 0
+  },
+  "Pectoraux": {
+    "D\u00e9velopp\u00e9 couch\u00e9 barre": 0,
+    "D\u00e9velopp\u00e9 couch\u00e9 halt\u00e8res": 0,
+    "D\u00e9velopp\u00e9 inclin\u00e9": 0,
+    "\u00c9cart\u00e9 halt\u00e8res": 0
+  },
+  "\u00c9paules": {
+    "D\u00e9velopp\u00e9 militaire": 0,
+    "\u00c9l\u00e9vations lat\u00e9rales": 0,
+    "Oiseau": 0
+  }
+}
