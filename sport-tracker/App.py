@@ -2,7 +2,7 @@ import streamlit as st
 from config import MOVEMENTS, MUSCLE_TARGETS
 from utils import load_current_week, increment_movement, reset_week
 from utils import load_targets, save_targets
-from utils import load_current_week, increment_movement, reset_week, increment_muscle
+from utils import load_current_week, increment_movement, reset_week, increment_muscle, decrement_movement,decrement_muscle
 
 
 
