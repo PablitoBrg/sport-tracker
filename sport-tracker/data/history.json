@@ -1,0 +1,62 @@
+[
+  {
+    "start_date": "2026-01-11",
+    "movements": {
+      "Tractions": 1,
+      "Dips": 1
+    },
+    "muscles": {
+      "Muscle up": 0,
+      "Dos Horizontal": 0,
+      "Dos Vertical": 3,
+      "Biceps": 1,
+      "Pectoraux": 1,
+      "Triceps": 1,
+      "\u00c9paules": 0,
+      "Lombaires": 0,
+      "Adbos": 0,
+      "Quad": 0,
+      "Ischios": 0
+    }
+  },
+  {
+    "start_date": "2026-01-11",
+    "movements": {
+      "Tractions": 4,
+      "Dips": 0
+    },
+    "muscles": {
+      "Muscle up": 0,
+      "Dos Horizontal": 0,
+      "Dos Vertical": 4,
+      "Biceps": 4,
+      "Pectoraux": 0,
+      "Triceps": 0,
+      "\u00c9paules": 1,
+      "Lombaires": 0,
+      "Adbos": 0,
+      "Quad": 0,
+      "Ischios": 0
+    }
+  },
+  {
+    "start_date": "2026-01-11",
+    "movements": {
+      "Tractions": 0,
+      "Dips": 0
+    },
+    "muscles": {
+      "Muscle up": 0,
+      "Dos Horizontal": 0,
+      "Dos Vertical": 0,
+      "Biceps": 0,
+      "Pectoraux": 0,
+      "Triceps": 0,
+      "\u00c9paules": 1,
+      "Lombaires": 0,
+      "Adbos": 0,
+      "Quad": 1,
+      "Ischios": 0
+    }
+  }
+]
