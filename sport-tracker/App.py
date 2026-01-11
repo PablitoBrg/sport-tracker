@@ -25,10 +25,17 @@ for movement in st.session_state.movement_targets:  # <- ici movement est défin
 
     st.markdown(f"**{movement}** — {current} / {target}")
     st.progress(progress)
+    col_minus, col_plus = st.columns(2)  # <- l’ordre ici définit la position
 
-    if st.button(f"+1 série {movement}", key=f"move_{movement}"):
-        increment_movement(movement)
-        st.rerun()
+    with col_minus:
+        if st.button(f"-1 série {movement}", key=f"move_{movement}_minus"):
+            decrement_movement(movement)
+            st.rerun()
+
+    with col_plus:
+        if st.button(f"+1 série {movement}", key=f"move_{movement}_plus"):
+            increment_movement(movement)
+            st.rerun()
 
 st.subheader("Muscles")
 for muscle in st.session_state.muscle_targets:  # <- muscle défini ici
@@ -38,10 +45,17 @@ for muscle in st.session_state.muscle_targets:  # <- muscle défini ici
 
     st.markdown(f"**{muscle}** — {current} / {target}")
     st.progress(progress)
+    col_minus, col_plus = st.columns(2)
 
-    if st.button(f"+1 série {muscle}", key=f"muscle_{muscle}"):
-        increment_muscle(muscle)
-        st.rerun()
+    with col_minus:
+        if st.button(f"-1 série {muscle}", key=f"muscle_{muscle}_minus"):
+            decrement_muscle(muscle)
+            st.rerun()
+
+    with col_plus:
+        if st.button(f"+1 série {muscle}", key=f"muscle_{muscle}_plus"):
+            increment_muscle(muscle)
+            st.rerun()
 
 st.subheader("Mouvements")
 
